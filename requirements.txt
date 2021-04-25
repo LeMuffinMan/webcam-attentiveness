@@ -1,9 +1,11 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+
 click
 enum-compat
 enum34
 eventlet
 Flask
-Flask-SocketIO
+Flask-SocketIO==4.3.2
 gevent
 gevent-websocket
 greenlet
@@ -15,12 +17,13 @@ numpy
 olefile
 opencv-python
 Pillow
-python-engineio
-python-socketio
+python-engineio==3.14.2
+python-socketio==4.6.1
 redis
 six
 Werkzeug
 
-torch
-torchvision
+torch==1.8.1+cpu 
+torchvision==0.9.1+cpu
+pandas
 ipython
